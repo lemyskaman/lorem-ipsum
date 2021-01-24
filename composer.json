@@ -1,0 +1,31 @@
+{
+    "name": "lemyskaman/loremp-ipsum",
+    "description": "A Lorem Ipsum genereator for php and laravel",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "illuminate/config": "^8.24",
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lemys lopez",
+            "email": "lemyskaman@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lemyskaman\\LorempIpsum\\Providers\\LorempIpsumServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+          "Lemyskaman\\LorempIpsum\\": "src"
+        }
+      }
+    
+
+
+}
