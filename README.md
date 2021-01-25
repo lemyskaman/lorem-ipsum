@@ -1,5 +1,5 @@
 # lorem-ipsum
-A Lorem Ipsum genereator class for php and laravel.
+A Lorem Ipsum generator class for php and laravel.
 
 Its meant to be used principaly as facade on [laravel seeders](https://laravel.com/docs/8.x/seeding) when some text bust be added to some model's text field.
 
