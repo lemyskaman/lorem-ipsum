@@ -1,7 +1,7 @@
 # lorem-ipsum
 A Lorem Ipsum generator class for php and laravel.
 
-Its meant to be used principaly as facade on [laravel seeders](https://laravel.com/docs/8.x/seeding) when some text bust be added to some model's text field.
+Its meant to be used principaly as a facade on [laravel seeders](https://laravel.com/docs/8.x/seeding) when some text must be added to some model's text field.
 
 It was made from the code proposed by [Mark Penner](https://mpen.ca/) on an answer at [stackoverflow](https://stackoverflow.com/a/39986034), with minor variations.
 
