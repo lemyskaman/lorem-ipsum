@@ -4,20 +4,30 @@
     "type": "library",
     "require": {
         "php": "^7.4",
-        "illuminate/config": "^8.24",
+        "illuminate/support": "^8.24"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "lemys lopez",
-            "email": "lemyskaman@gmail.com"
+            "name": "Lemys lópez",
+            "email": "lemyskaman@gmail.com",
+            "homepage": "https://lemyskaman.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Mark Penner",
+            "homepage": "https://mpen.ca/",
+            "role": "Developer"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
                 "Lemyskaman\\LorempIpsum\\Providers\\LorempIpsumServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "LorempIpsum": "Lemyskaman\\LorempIpsum\\Facades\\LorempIpsum"
+            }
         }
     },
     "autoload": {

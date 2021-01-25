@@ -1,9 +1,10 @@
 <?php
 
-namespace Lemyskaman\LorempIpsum;
+namespace Lemyskaman\LorempIpsum\Providers;
 
 
 use Illuminate\Support\ServiceProvider;
+use Lemyskaman\LorempIpsum\LorempIpsum;
 
 class LorempIpsumServiceProvider extends ServiceProvider
 {
@@ -14,7 +15,8 @@ class LorempIpsumServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+
+        $this->app->singleton(LorempIpsum::class,LorempIpsum::class);
 
     }
 
