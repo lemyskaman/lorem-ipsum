@@ -38,9 +38,11 @@ make() Returns a text of random [strings].
 ***$nparagraphs*** : Number of paragraph 1 by default
 
 ***$stences_range_start*** :  Minumun number of sentences per paragraph
+
 ***$sentences_range_end*** :  Maximun number of sentences per paragraph
 
 ***$words_range_end*** :  Minumun number of Words per paragraph
+
 ***$words_range_end*** :  Maximun number of Words per paragraph
 
 On a Laravel Seeder:
