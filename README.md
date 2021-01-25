@@ -17,7 +17,25 @@ With composer just:
 
 # Usage
 
-Just call the static facade method make with the params to build the text
+
+Just call the static facade method make.
+
+```php
+
+    LorempIpsum::make();
+
+```
+
+
+```php
+
+    LorempIpsum::make( int $nparagraphs = 1 , int $stences_range_start = 3 , int $sentences_range_end = 8 , int $words_range_start = 3 , int $words_range_end = 15 );
+
+```
+
+make() Returns a text of random string.
+
+### $nparagraphs
 
 ```php
     //some seeder
@@ -36,4 +54,6 @@ Just call the static facade method make with the params to build the text
     >>> 
 
 
+ 
+1) The number of paragrafs, 
     
