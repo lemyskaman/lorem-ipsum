@@ -7,10 +7,10 @@ It was made from the code proposed by [Mark Penner](https://mpen.ca/) on an answ
 
 
 
-#Dependency
+# Dependency
 It was writen and tested on php7.4.x and laravel 8.x
 
-#install 
+# install 
 With composer just:
     
     $ composer require lemyskaman/loremp-ipsum
