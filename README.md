@@ -76,11 +76,12 @@ On a Laravel Seeder:
     
  On artisans tinker:
  
+```bash
     Psy Shell v0.10.6 (PHP 7.4.14 — cli) by Justin Hileman
     >>> \Lemyskaman\LorempIpsum\Facades\LorempIpsum::make()
     => "Praesent in pulvinar ultrices condimentum ullamcorper. Sed erat mauris facilisis ligula nisi class conubia neque fames, consectetur tincidunt integer orci porttitor consequat habitasse platea donec dignissim. Ligula ac tempor quis tellus nisi massa orci, in etiam lobortis quis fusce hendrerit augue eu lectus magna neque nisl iaculis. Erat pulvinar tempor phasellus eget eu efficitur duis laoreet vehicula imperdiet ullamcorper habitant, at luctus purus porttitor condimentum risus iaculis cras. Integer et ornare augue eget sagittis taciti accumsan cras, lorem erat integer est ultrices platea vel elementum sem habitant cras. Placerat malesuada vestibulum nec auctor aliquam et quam enim congue laoreet cras. Etiam ultrices convallis cubilia habitasse, dictum ut euismod nostra potenti laoreet vehicula ullamcorper iaculis. Dolor sit praesent viverra mattis vitae leo nibh ut tortor pharetra pretium odio rhoncus."
     >>> 
-
+```
 
  
 1) The number of paragrafs, 
