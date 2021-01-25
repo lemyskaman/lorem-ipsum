@@ -33,16 +33,44 @@ Just call the static facade method make.
 
 ```
 
-make() Returns a text of random string.
+make() Returns a text of random [strings].
 
-### $nparagraphs
+***$nparagraphs*** : Number of paragraph 1 by default
 
+***$stences_range_start*** :  Minumun number of sentences per paragraph
+***$sentences_range_end*** :  Maximun number of sentences per paragraph
+
+***$words_range_end*** :  Minumun number of Words per paragraph
+***$words_range_end*** :  Maximun number of Words per paragraph
+
+On a Laravel Seeder:
 ```php
-    //some seeder
+    //some/seeder/file
+    namespace Database\Seeders;
     
-    use Lemyskaman\LorempIpsum\Facades\LorempIpsum
+    use Illuminate\Database\Seeder;
+    use Illuminate\Support\Facades\DB;
+    use Illuminate\Support\Facades\Hash;
+    use Illuminate\Support\Str;
+    use Lemyskaman\LorempIpsum\Facades\LorempIpsum;
     
-    LorempIpsum::make();
+    class DatabaseSeeder extends Seeder
+    {
+        /**
+         * Run the database seeders.
+         *
+         * @return void
+         */
+        public function run()
+        {
+            DB::table('posts')->insert([
+                'title' => LorempIpsum::make(1,1,1,2,4),
+                'content' => LorempIpsum::make(5)
+            ]);
+        }
+    }
+
+
     
 ```
     
