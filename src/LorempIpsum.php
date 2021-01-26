@@ -20,7 +20,7 @@ class LorempIpsum
      * Build a loremp impsum random text,
      *
      * @param int $nparagraphs the number of paragraphs in the text
-     * @param int $stences_range_start
+     * @param int $sentences_range_start
      * @param int $sentences_range_end
      * @param int $words_range_start
      * @param int $words_range_end
@@ -29,17 +29,17 @@ class LorempIpsum
      */
     public  function make(
         int $nparagraphs = 1,
-        int $stences_range_start = 3,
+        int $sentences_range_start = 3,
         int $sentences_range_end = 8,
         int $words_range_start = 3,
         int $words_range_end = 15
     )
     {
-        $sentences_range = [$stences_range_start, $sentences_range_end];
+        $sentences_range = [$sentences_range_start, $sentences_range_end];
         $words_range = [$words_range_start, $words_range_end];
         $paragraphs = [];
         for ($p = 0; $p < $nparagraphs; ++$p) {
-            $nsentences = random_int($stences_range_start, $sentences_range_end);
+            $nsentences = random_int($sentences_range_start, $sentences_range_end);
             $sentences = [];
             for ($s = 0; $s < $nsentences; ++$s) {
                 $frags = [];

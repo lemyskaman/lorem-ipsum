@@ -29,7 +29,7 @@ Just call the static facade method make.
 
 ```php
 
-    LorempIpsum::make( int $nparagraphs = 1 , int $stences_range_start = 3 , int $sentences_range_end = 8 , int $words_range_start = 3 , int $words_range_end = 15 );
+    LorempIpsum::make( int $nparagraphs = 1 , int $sentences_range_start = 3 , int $sentences_range_end = 8 , int $words_range_start = 3 , int $words_range_end = 15 );
 
 ```
 
@@ -37,7 +37,7 @@ make() Returns a text of random [strings].
 
 ***$nparagraphs*** : Number of paragraph 1 by default
 
-***$stences_range_start*** :  Minumun number of sentences per paragraph
+***$sentences_range_start*** :  Minumun number of sentences per paragraph
 
 ***$sentences_range_end*** :  Maximun number of sentences per paragraph
 
