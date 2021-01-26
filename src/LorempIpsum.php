@@ -75,15 +75,6 @@ class LorempIpsum
         return array_intersect_key($arr, array_fill_keys($keys, null));
     }
 
-    protected $value = 0;
-
-    public function increase()
-    {
-        $this->value++;
-
-    return $this->value;
-    }
-
 
 
 }
